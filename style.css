@@ -161,6 +161,7 @@ section .started {
   font-weight: bold;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin-bottom: 20px;
+  justify-self: center;
 }
 .story p {
   font-size: x-small;
@@ -391,7 +392,20 @@ footer p {
   }
   .story {
     width: 100%;
+    justify-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .story-h {
     justify-self: center;
+  }
+  .story img {
+    width: 100%;
+    max-width: 500px;
+  }
+  .apart-div {
+    width: 100%;
+    justify-items: center;
   }
   .ol {
     letter-spacing: normal;

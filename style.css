@@ -199,6 +199,7 @@ article img {
   border-radius: 8px;
   justify-items: center;
   box-shadow: 1px 2px rgb(211, 206, 206);
+  padding-bottom: 10%;
 }
 .apart-img {
   width: 35px;
@@ -270,7 +271,7 @@ p span {
 /* article2*/
 .article2 {
   display: flex;
-  width: 80%;
+  width: 100%;
   justify-self: center;
   background-color: #60269e;
   margin-top: 15%;
@@ -278,6 +279,7 @@ p span {
   padding: 5%;
   gap: 6%;
   border-radius: 10px;
+  justify-items: center;
 }
 .grow {
   width: 50%;
@@ -319,6 +321,7 @@ p span {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: lighter;
   padding-bottom: 10%;
+  justify-self: center;
 }
 .mentors-p {
   line-height: 3px;
@@ -430,12 +433,11 @@ footer p {
     width: 70%;
   }
   .grow2 {
-    width: 20%;
     padding-right: 10%;
   }
   .grow-img {
     width: 100%;
-    max-width: 100%;
+    max-width: 800px;
   }
 
   .rows,

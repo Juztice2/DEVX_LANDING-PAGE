@@ -88,7 +88,8 @@ body {
   border-radius: 9px;
   color: blueviolet;
   cursor: pointer;
-  margin-left: 40%;
+  display: block;
+  margin: 10px auto;
 }
 .section1 button:hover {
   background-color: blueviolet;
@@ -178,11 +179,9 @@ article .highlight {
   color: blueviolet;
 }
 article img {
-  width: 220px;
-  object-fit: contain;
-  display: flex;
-  justify-self: center;
-  border-radius: 7px;
+  width: 100%;
+  max-width: 220px;
+  border-radius: 5px;
 }
 .apart {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -409,8 +408,11 @@ footer p {
     width: 100%;
   }
   .community-img {
-    display: 110%;
+    width: 100%;
+    max-width: 100%;
+    display: block;
   }
+
   .grow {
     width: 70%;
   }
@@ -419,6 +421,19 @@ footer p {
     padding-right: 10%;
   }
   .grow-img {
-    width: 250%;
+    width: 100%;
+    max-width: 100%;
   }
+
+  .rows,
+  .container,
+  .article,
+  .community,
+  .footer {
+    flex-wrap: wrap;
+  }
+}
+* {
+  max-width: 100%;
+  box-sizing: border-box;
 }

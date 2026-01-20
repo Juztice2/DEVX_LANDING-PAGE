@@ -73,6 +73,7 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: lighter;
   justify-items: center;
+  justify-self: center;
 }
 .section1 button {
   padding: 5px;
@@ -385,6 +386,7 @@ footer p {
   }
   .story {
     width: 100%;
+    justify-self: center;
   }
   .ol {
     letter-spacing: normal;

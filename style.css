@@ -72,7 +72,7 @@ body {
 .intro {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: lighter;
-  justify-content: center;
+  justify-self: center;
 }
 .intro h1 {
   justify-self: center;

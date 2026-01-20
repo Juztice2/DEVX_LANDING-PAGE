@@ -72,7 +72,14 @@ body {
 .intro {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: lighter;
-  justify-items: center;
+  justify-self: center;
+}
+.intro h1 {
+  justify-self: center;
+}
+.intro p {
+  justify-self: center;
+  margin-left: 4px;
 }
 .section1 button {
   padding: 5px;
@@ -94,6 +101,7 @@ body {
 .d {
   margin-left: 7px;
   margin-top: -15px;
+  justify-self: center;
 }
 .section1 p {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;

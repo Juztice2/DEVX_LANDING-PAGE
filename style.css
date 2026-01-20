@@ -1,8 +1,9 @@
+html,
 body {
-  padding: 0px;
-  width: 100%;
   overflow-x: hidden;
+  height: 100%;
 }
+
 /* header*/
 .header {
   width: 100%;
@@ -359,6 +360,11 @@ footer p {
 
 /*media*/
 @media (max-width: 480px) {
+  body {
+    margin: 0;
+    overflow-x: hidden;
+  }
+
   .links a {
     display: none;
   }

@@ -66,14 +66,13 @@ body {
 
 /*first section*/
 .section1 {
-  justify-self: center;
+  justify-content: center;
   margin-top: 12%;
 }
 .intro {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: lighter;
   justify-items: center;
-  justify-self: center;
 }
 .section1 button {
   padding: 5px;
@@ -374,6 +373,7 @@ footer p {
   }
   .intro {
     font-size: small;
+    justify-self: center;
   }
   .section1 p {
     font-size: smaller;

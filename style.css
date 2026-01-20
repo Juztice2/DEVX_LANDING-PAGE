@@ -71,6 +71,7 @@ body {
   width: 90%;
 }
 .intro {
+  justify-self: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: lighter;
   justify-items: center;
@@ -438,6 +439,10 @@ footer p {
   .grow-img {
     width: 100%;
     max-width: 800px;
+  }
+  .mentors {
+    justify-self: center;
+    justify-items: center;
   }
 
   .rows,

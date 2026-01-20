@@ -147,7 +147,7 @@ section .started {
 }
 .article {
   display: flex;
-  width: 80%;
+  width: 100%;
   justify-self: center;
   margin-top: 10%;
   align-items: center;
@@ -180,7 +180,7 @@ article .highlight {
 }
 article img {
   width: 100%;
-  max-width: 220px;
+  max-width: 280px;
   border-radius: 5px;
 }
 .apart {
@@ -387,6 +387,7 @@ footer p {
   }
   .article {
     display: grid;
+    width: 100%;
   }
   .story {
     width: 100%;

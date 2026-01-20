@@ -380,6 +380,7 @@ footer p {
     display: block;
   }
   .intro {
+    width: 100%;
     font-size: small;
     justify-self: center;
   }
